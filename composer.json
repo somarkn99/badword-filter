@@ -1,0 +1,22 @@
+{
+    "name": "somarkn99/bad-word-filter",
+    "autoload": {
+        "psr-4": {
+            "Somarkn99\\BadWordFilter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Somar Kesen",
+            "email": "kesen.somar.99@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BadWordFilter\\BadWordFilterServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
